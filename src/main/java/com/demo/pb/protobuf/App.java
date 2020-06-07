@@ -1,11 +1,13 @@
 package com.demo.pb.protobuf;
 
-import com.demo.pb.protobuf.message.AddressBookProtos;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
  * https://www.cnblogs.com/gutousu/p/9951956.html
+ * mvn install:install-file -DgroupId=com.google.protobuf -DartifactId=protoc -Dversion=3.0.0 -Dclassifier=windows-x86_64} -Dpackaging=exe -Dfile=E:\protoc-3.12.3-win64\bin\protoc.exe
+ * protobuf:compile //编译消息对象
+ * protobuf:compile-custom //依赖消息对象,生成接口服务
  *
  */
 
