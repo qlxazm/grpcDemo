@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option java_package = "com.demo.pb.protobuf.message";
+option java_multiple_files = true; // 是否要单独生成文件，而不是以内部类的形式
+
+// 定义一个服务
+service TestService
+{
+    // 定义一个rpc方法
+    rpc method(Request) returns (Response){}
+}
+
+message Request
+{
+    string request1 = 1;
+    string request2 = 2;
+}
+
+message Response
+{
+    string rsponse1 = 1;
+    string rsponse2 = 2;
+}
