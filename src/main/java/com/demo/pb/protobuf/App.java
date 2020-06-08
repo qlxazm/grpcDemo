@@ -9,6 +9,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * protobuf:compile //编译消息对象
  * protobuf:compile-custom //依赖消息对象,生成接口服务
  *
+ * https://zhuanlan.zhihu.com/p/145178049
+ *
  */
 
 @SpringBootApplication
