@@ -11,6 +11,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  *
  * https://zhuanlan.zhihu.com/p/145178049
  *
+ * https://developers.google.com/protocol-buffers/docs/javatutorial
+ *
  */
 
 @SpringBootApplication
